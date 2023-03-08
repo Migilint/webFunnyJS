@@ -1,5 +1,5 @@
 import {colors, board} from './photoArray.js';
-const SQUARES_NUMBER = 900
+const SQUARES_NUMBER = 900;
 const activeFun = 600;
 
 const displayWidth0 = window.innerWidth;
