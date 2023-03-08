@@ -14,7 +14,7 @@ for (let i = 0; i < SQUARES_NUMBER; i++) {
     square.id = 'square';
 
 
-    square.addEventListener('mouseover', () => setColor(square, i), true)
+    square.addEventListener('mouseover', () => setColor(square, i), {once: true})
     board.append(square)
 
     
